@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "803ed54c154630226f01eebb33fbabb5",
+    "packages": [
+        {
+            "name": "zakaulovaaa/geoip-main",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zakaulovaaa/geoip-main.git",
+                "reference": "de58ddf2f41f4e5b3b015a50aae33b3edfd69e7e"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GeoIp\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "zakaulovaaa",
+                    "email": "darya.zakaulova@yandex.ru"
+                }
+            ],
+            "description": "main",
+            "time": "2021-06-08T15:52:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "zakaulovaaa/geoip-main": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

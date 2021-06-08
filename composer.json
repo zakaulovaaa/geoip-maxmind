@@ -1,0 +1,25 @@
+{
+    "name": "zakaulovaaa/geoip-maxmind",
+    "description": "maxmind",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zakaulovaaa",
+            "email": "darya.zakaulova@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GeoIp\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/zakaulovaaa/geoip-main.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "zakaulovaaa/geoip-main" : "dev-main"
+    }
+}
